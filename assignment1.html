@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function familyPic() {
+        let res1 = document.getElementById("i1");
+        res1.src =
+          "https://th.bing.com/th/id/OIP.bDQ-RK2Y5YJcKnG_nEDhgAHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7";
+      }
+      function freindsPic() {
+        let res2 = document.getElementById("i1");
+        res2.src =
+          "https://th.bing.com/th/id/OIP.SwUeXWntLyfCsildrehCbQHaEc?w=298&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="d1" style="margin: 100px auto; width: 500px">
+      <img
+        id="i1"
+        src="https://th.bing.com/th/id/OIP.WzW8vMJUAth3PpUtp2eyiQHaEK?w=332&h=187&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+        alt=""
+      />
+    </div>
+    <div id="d2" style="margin: 100px auto; width: 500px">
+      <button
+        style="
+          color: blue;
+          background-color: lime;
+          margin-right: 200px;
+          padding: 10px;
+        "
+        onclick="familyPic()"
+      >
+        FAMILY
+      </button>
+      <button
+        style="color: red; background-color: darkturquoise; padding: 10px"
+        onclick="freindsPic()"
+      >
+        FREINDS
+      </button>
+    </div>
+  </body>
+</html>
